@@ -5,36 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Password Checker</title>
   </head>
   <body>
     <h1>Password Check</h1>
-    <input type="text" id="pswd1" />
-    <input type="text" id="pswd2" />
-    <button>Show Password</button>
+    <input class="password" type="password" id="pswd1" />
+    <input class="password" type="password" id="pswd2" />
+    <button id="toggle-button">Show Password</button>
     <ul id="list">
       <li class="mycheck">
-        <input type="checkbox" id="check" disabled /><label
+        <input type="checkbox" id="passwordsAreEqual" /><label
           >Passwords are equal</label
         >
       </li>
       <li class="mycheck">
-        <input type="checkbox" id="check" disabled /><label
+        <input type="checkbox" id="lowerCaseLetters" /><label
           >Lower Case Letters</label
         >
       </li>
       <li class="mycheck">
-        <input type="checkbox" id="check" disabled /><label
+        <input type="checkbox" id="upperCaseLetters" /><label
           >Upper Case Letters</label
         >
       </li>
       <li class="mycheck">
-        <input type="checkbox" id="check" disabled /><label
+        <input type="checkbox" id="containNumber" /><label
           >Contain Numbers</label
         >
       </li>
       <li class="mycheck">
-        <input type="checkbox" id="check" disabled /><label
+        <input type="checkbox" id="checkLength" /><label
           >At least 10 characters long</label
         >
       </li>
