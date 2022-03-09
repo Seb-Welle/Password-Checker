@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  background-color: lightsalmon;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: row;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Lobster";
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+
+.checking-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 701px) {
+  .checking-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.input-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.password {
+  border: 2px solid black;
+  width: 10rem;
+  height: 1.5rem;
+}
+
+#toggle-button {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  width: 10rem;
+  height: 1.5rem;
+}
+
+.mycheck {
+  list-style: none;
+}

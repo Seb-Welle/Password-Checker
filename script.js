@@ -15,6 +15,7 @@ toggleButton.addEventListener("click", function () {
   }
 });
 
+/* Check Password */
 const body = document.querySelector("body");
 
 body.addEventListener("input", function () {
